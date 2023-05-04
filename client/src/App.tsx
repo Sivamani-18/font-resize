@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <FontResizer id='font-resizer' />
+        <FontResizer />
         <img src={logo} className='App-logo' alt='logo' />
         <h1 className='wel-css'>Welcome</h1>
         <h1>Why is this awesome?</h1>

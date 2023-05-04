@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 
 interface Props {
-  id: string;
+  id?: string;
   min?: number;
   max?: number;
 }
 
-const FontResizer: React.FC<Props> = ({ id, min = 0, max = 8 }) => {
+const FontResizer: React.FC<Props> = ({
+  id = 'font-resize',
+  min = 0,
+  max = 8,
+}) => {
   const [current, setCurrent] = useState<number>(() => {
     const retrievedcurrent = localStorage.getItem('current');
     return retrievedcurrent ? Number(retrievedcurrent) : 0;
