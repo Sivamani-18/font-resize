@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+* {
+  line-height: normal;
+}
+h1 {
+  margin-bottom: 0;
+}
 
 .App-logo {
   height: 40vmin;
@@ -13,6 +19,19 @@
   }
 }
 
+.wel-css {
+  font-size: 65px;
+  margin-bottom: 14px;
+}
+
+.card h5 {
+  font-size: 28px;
+}
+
+.card li {
+  font-size: 20px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +41,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header p {
+  font-size: 18px;
 }
 
 .App-link {
