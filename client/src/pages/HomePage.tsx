@@ -11,7 +11,7 @@ export const HomePage: React.FC<HomePageProps> = ({}) => {
     <>
       <nav className='navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient'>
         <div className='container'>
-          <a className='navbar-brand logo' href='#'>
+          <a className='navbar-brand logo' href='/'>
             Brand
           </a>
           <button
@@ -27,6 +27,11 @@ export const HomePage: React.FC<HomePageProps> = ({}) => {
               <li className='nav-item'>
                 <a className='nav-link active' href='/'>
                   Home
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link active' href='/contact'>
+                  Contact
                 </a>
               </li>
             </ul>
