@@ -25,7 +25,7 @@ export const HomePage: React.FC<HomePageProps> = ({}) => {
           <div className='collapse navbar-collapse' id='navbarNav'>
             <ul className='navbar-nav ms-auto'>
               <li className='nav-item'>
-                <a className='nav-link active' href='index.html'>
+                <a className='nav-link active' href='/'>
                   Home
                 </a>
               </li>

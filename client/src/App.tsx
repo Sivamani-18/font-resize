@@ -14,7 +14,11 @@ function App() {
         <FontResizer />
       </header>
       <Approute />
-      <button type='button' onClick={() => setshowCard(true)}>
+      <button
+        className='btn btn-outline-primary btn-lg'
+        type='button'
+        onClick={() => setshowCard(true)}
+      >
         Show Card
       </button>
       {showCard && <Card />}
