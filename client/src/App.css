@@ -34,11 +34,12 @@ h1 {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 170px;
+  padding-bottom: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -58,4 +59,16 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+.portfolio-block.block-intro .avatar {
+  background-image: url(./assets/img/avatars/avatar.jpg);
+}
+
+.portfolio-laptop-mockup .screen .screen-content {
+  background-image: url(./assets/img/tech/image4.jpg);
+}
+
+.portfolio-block.block-intro .sub-para {
+  font-size: 24px;
 }
