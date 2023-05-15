@@ -10,7 +10,7 @@ export const Approute: React.FC<ApprouteProps> = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/Font-Resize' element={<HomePage />} />
+        <Route path='/font-resize' element={<HomePage />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
