@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/font-resize/static/css/main.e97ebc91.css",
+    "main.js": "/font-resize/static/js/main.fedd23ea.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/font-resize/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/ionicons.svg?v=2.0.0": "/font-resize/static/media/ionicons.b45d332f6829d6813600.svg",
+    "static/media/avatar.jpg": "/font-resize/static/media/avatar.e437faf8865cc41187cd.jpg",
+    "static/media/ionicons.ttf?v=2.0.0": "/font-resize/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
+    "static/media/image2.jpg": "/font-resize/static/media/image2.7f167f8d1d05d3167c1f.jpg",
+    "static/media/image5.jpg": "/font-resize/static/media/image5.dce9d9651f7219f674e2.jpg",
+    "static/media/ionicons.eot?v=2.0.0": "/font-resize/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
+    "static/media/image4.jpg": "/font-resize/static/media/image4.9849d34919db2554e1c7.jpg",
+    "static/media/ionicons.woff?v=2.0.0": "/font-resize/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
+    "index.html": "/font-resize/index.html",
+    "main.e97ebc91.css.map": "/font-resize/static/css/main.e97ebc91.css.map",
+    "main.fedd23ea.js.map": "/font-resize/static/js/main.fedd23ea.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/font-resize/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e97ebc91.css",
+    "static/js/main.fedd23ea.js"
+  ]
+}
